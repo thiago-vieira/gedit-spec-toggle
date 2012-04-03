@@ -26,7 +26,7 @@ elsif doc.match(/\.rb/)
   dirs << "spec" if dirs.count > 0
   doc_to_open = doc[0..-4] + "_spec.rb"
 else
-  raise "The file is not one .rb, .erb or Spec of a Rails project."
+  raise "The file is not one .rb, .erb or Spec of a Ruby/Rails project."
 end
 
 dirs = dirs.reverse.join("/")

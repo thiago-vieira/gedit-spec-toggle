@@ -1,0 +1,11 @@
+Toggle between .rb/.erb and respective _spec.rb on Gedit text editor.
+
+Config
+======
+
+- Add the code in external tools of Gedit.
+
+- Set your Ruby path at first line.
+
+- Set a easy shortcut.
+
