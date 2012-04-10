@@ -7,12 +7,12 @@ doc = path.delete(path[-1])
 dirs = []
 rails_struct = false
 if path.include?('app') || path.include?('spec')
-	rails_struct = true
-	path.size.times do
-		dir = path.delete(path[-1])
-		break if dir == 'app' || dir == 'spec'
-		dirs << dir
-	end
+  rails_struct = true
+  path.size.times do
+  dir = path.delete(path[-1])
+  break if dir == 'app' || dir == 'spec'
+  dirs << dir
+  end
 end
 
 if doc.match(/erb_spec.rb/)
